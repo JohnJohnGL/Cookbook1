@@ -8,6 +8,8 @@ body {
 
 :root {
     --dcolor: linear-gradient(#EB3349,#F45C43);
+    --dcolor2: #FFF;
+    --dcolor3: #558ABB;
 }
 
 @media screen and (max-width: 1600px) {
@@ -109,7 +111,7 @@ body {
     display: flex;
     align-items: center;
     padding: 2.5rem;
-    color: #FFF;
+    color: var(--dcolor2);
     padding-bottom: 2%;
     margin-left: 1%;
     background-image: var(--dcolor);
@@ -121,13 +123,7 @@ body {
     filter:invert();
 }
 
-/* .dnav-left a {
-    text-decoration: none;
-    color: #FFF;
-} */
-
 .dnav-left:hover {
-/* padding-bottom: 4%; */
 transform: translateY(30%);
 border-bottom-right-radius: 100px;
 border-bottom-left-radius: 100px;
@@ -137,22 +133,14 @@ box-shadow: 0px 50px 50px -9px rgba(0,0,0,0.47);
 background-image: var(--dcolor);
 }
 
-/* .dnav-left a {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2rem;
-    text-decoration: none;
-    color: #FFF;
-    padding-bottom: 0px;
-} */
-
 .dnav-middle h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 4rem;
     text-decoration: none;
-    color: #FFF;
+    color:var(--dcolor2);
     padding: 0px;
     margin: 0px;
-    text-shadow: 5px 5px #558ABB;
+    text-shadow: 5px 5px var(--dcolor3);
     text-align: left;
     padding-bottom: 3%;
 }
@@ -201,7 +189,7 @@ background-image: var(--dcolor);
 nav ul li a {
     text-decoration: none;
     font-size: 2rem;
-    color: #FFF;
+    color: var(--dcolor2);
     font-weight: 1000;
     border-radius: 10px;
     padding: 5%;
@@ -209,12 +197,9 @@ nav ul li a {
 }
 
 .dhome {
-    /* border-style: solid;
-    border-color: #116D6E; */
     display: flex;
     justify-content: center;
     transition: all 0.5s ease-in-out;
-    /* background-image: var(--dcolor); */
     padding: 3rem 1rem;
 }
 
@@ -241,22 +226,20 @@ nav ul li a {
 }
 
 .navlist h3 {
-    color: #FFF;
+    color:var(--dcolor2);
     font-size: 3rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     opacity: 0%;
     padding: 0px;
     text-align: left;
-    /* border-style: solid; */
     margin: 0px;
     transition: all 0.5s ease-in;
-    /* display: none; */
 }
 
 .navlist li:hover h3 {
 transform: translateY(70%);
 opacity: 100%;
-text-shadow: 5px 5px #558ABB;
+text-shadow: 5px 5px var(--dcolor3);
 }
 
 .dabout img {
@@ -265,12 +248,9 @@ text-shadow: 5px 5px #558ABB;
 }
 
 .dabout {
-    /* border-style: solid;
-    border-color: #116D6E; */
     display: flex;
     justify-content: center;
     transition: all 0.5s ease-in;
-    /* background-image: var(--dcolor); */
     padding: 2.5rem 1rem;
 }
 
@@ -285,12 +265,9 @@ text-shadow: 5px 5px #558ABB;
 }
 
 .dcontact {
-    /* border-style: solid;
-    border-color: none !important; */
     display: flex;
     justify-content: center;
     transition: all 0.5s ease-in;
-    /* background-image: var(--dcolor); */
     padding: 4rem 1rem;
 }
 
@@ -299,7 +276,6 @@ text-shadow: 5px 5px #558ABB;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
     border-top-left-radius: 100px;
-    /* background-color: #072e2e; */
     -webkit-box-shadow: 0px 50px 50px -9px rgba(0,0,0,0.47); 
     box-shadow: 0px 50px 50px -9px rgba(0,0,0,0.47);
     background-image: var(--dcolor);
