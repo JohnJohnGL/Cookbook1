@@ -1,3 +1,8 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /* Darrell */
 body {
     margin: 0px;
@@ -348,4 +353,67 @@ font-size: 12px;
 
 /* John */
 
-/* Jennifer */s
+
+/* Jennifer */
+h2 {
+  background-color: red;
+  color: white;
+  margin: 0;
+  padding: 1% 0% 1% 5%;
+}
+
+.individual_recipes {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+  display: flex;
+}
+
+.recipe_wrapper {
+  margin: auto;
+  margin: 1%;
+}
+
+.recipe_container {
+  position: relative;
+  width: 100%;
+  
+}
+
+.recipe_image {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.image_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 86%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: transparent;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.recipe_container:hover .image_overlay {
+  opacity: 1;
+}
+
+.overlay_text {
+  color: white;
+  font-size: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+

@@ -1,0 +1,79 @@
+body    {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+/* <!-- begin Nav bar --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- end Nav bar --> */
+
+/* <!-- begin main --> */
+
+/* <!-- end main --> */
+
+/* <!-- begin recipe cards section --> */
+.recipe_cards   {
+    display: flex;
+    justify-content: center;
+}
+/* <!-- end recipe cards section --> */
+
+/* begin recipe section */
+.recipe     {
+    background-color: #7c73c0;
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+h1  {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+h3  {
+    color: white;
+    text-align: center;
+}
+
+a   {
+    text-decoration: none;
+}
+h3:hover {
+    color: black;
+}
+
+.recipe_image   {
+    margin: auto;
+}
+/* end recipe section */

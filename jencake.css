@@ -1,0 +1,122 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body  {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* <!-- begin Nav bar --> */
+
+/* <!-- end Nav bar --> */
+
+/* <!-- begin main --> */
+
+/* <!-- end main --> */
+
+/* begin hero section */
+.hero_image {
+  background-image: url(./jen_images/Black-Velvet-Chocolate-Cake-Halloween-005.jpg);
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero_text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+}
+/* end hero section */
+
+/* <!-- begin recipe section --> */
+.recipe {
+  background-color: #7c73c0;
+  display: grid; 
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 2%;
+  height: 100%;
+  padding: 2%;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 2%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    padding: 0 0 0 2%;
+  }
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin: 2%;
+  }
+   
+  #instructions {
+    background-color: white; 
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    padding: 2%;
+  }
+  
+  #instructions ol li {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+  
+  #info_equipment {
+    background-color: white; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    padding: 2%;
+  }
+  
+  #info_equipment ul li {
+    list-style-type: none;
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  .recipe_image {
+    margin: 5% 25% 0% 25%;
+  }
+
+  #ingredients {
+    background-color: white;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    padding: 2%;
+  }
+  
+  #ingredients ul li {
+    list-style-type: none;
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+/* <!-- end recipe section --> */
+
+
+
+
