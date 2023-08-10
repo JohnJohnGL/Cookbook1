@@ -148,6 +148,7 @@ background-image: var(--dcolor);
     text-shadow: 5px 5px var(--dcolor3);
     text-align: left;
     padding-bottom: 3%;
+    background-color: rgba(255, 0, 0, 0);
 }
 
 .dnav-middle a {
