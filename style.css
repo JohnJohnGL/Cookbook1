@@ -286,7 +286,66 @@ text-shadow: 5px 5px var(--dcolor3);
     filter:invert();
 }
 /* Nita */
+body {
+    padding: 0;
+    margin: auto;
+}
+
+    .header-content{
+    background-image: url(tomato\ copy.jpg);
+    min-height: 800px;
+    min-width:700px;
+    background-repeat: no-repeat;  
+    background-size: 100%;
+}
+    /*------footer-----*/
+.footer-content{
+
+    display: flex;
+    margin-top: 20px;
+    }
+.stay-touch{
+    margin-left: 20%;
+    
+}
+.email-bar{
+    display: block;
+    margin-left: 20%;
+    align-content: space-between;
+}
+
+.submit-button{
+    background-color:black;
+    color: white;
+    min-width: 350px;
+    min-height: 40px;
+    border-color: black;
+}
+
+.s-icon{
+    font-size: 25px;
+    color: red;
+    display: flex;
+    justify-content:space-between;
+}
+.input-button{
+    background-color: white;
+    min-width: 350px;
+    min-height: 40px;
+    text-align: center;
+    text-decoration-color: black;
+    margin-bottom:10px ;
+    margin-top: 10px;
+}
+#copyright1{
+display: flex;
+justify-content: center;
+margin-top: 60px;
+font-size: 12px;
+}
+    /*--------footer end------/
+
 
 /* John */
 
-/* Jennifer */
+/* Jennifer */s
