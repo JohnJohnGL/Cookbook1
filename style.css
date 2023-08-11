@@ -450,6 +450,10 @@ body{
     margin-right: 0;
     border: black solid 1px;
 }
+.best_food{
+    width: 100%;
+    height: 100%;
+}
 .gstory{
     height: 100%;
     width: 50%;
