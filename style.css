@@ -353,7 +353,211 @@ font-size: 12px;
 
 
 /* John */
-
+body{
+    padding: 0;
+    margin: 0;
+}
+.johnsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 115vh;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+.gh2{
+    width: 20%;
+    margin: 0;
+    color: white;
+    border-radius: 100px;
+    background-image: var(--dcolor);
+    -webkit-box-shadow: 0px -2px 36px 11px #000000; 
+    box-shadow: 0px -2px 36px 4px #000000;
+}
+.johntitle{
+    width: 70vw;
+    display: flex;
+    margin-bottom: 4%;
+    justify-content: left;
+    text-align: left;
+}
+.storycontainer{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    background-image: var(--dcolor);
+    -webkit-box-shadow: 0px -2px 36px 11px #000000; 
+    box-shadow: 0px -2px 36px 5px #000000;
+    border: #EB3349 solid 10px;
+    border-radius: 60px;
+    padding-bottom: 5%;
+    margin-bottom: 7%;
+}
+.dcontainer{
+    width: 40%;
+    height: 40%;
+    display: flex;
+}
+.dpic{
+    width: 50%;
+    height: 100%;
+    margin-right: 0;
+    border: black solid 1px;
+}
+.dstory{
+    height: 100%;
+    width: 50%;
+    overflow: auto;
+    border: black solid 1px;
+    text-align: center;
+}
+.ncontainer{
+    width: 40%;
+    height: 40%;
+    display: flex;
+}
+.npic{
+    width: 50%;
+    height: 100%;
+    border: black solid 1px;
+}
+.nstory{
+    height: 100%;
+    width: 50%;
+    overflow: auto;
+    border:black solid 1px;
+    text-align: center;
+}
+.gcontainer{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    overflow:scroll;
+}
+.gpic{
+    width: 50%;
+    height: 100%;
+    margin-right: 0;
+    border: black solid 1px;
+}
+.gstory{
+    height: 100%;
+    width: 50%;
+    overflow: auto;
+    border: black solid 1px;
+    text-align: center;
+}
+.jcontainer{
+    width: 40%;
+    height: 40%;
+    display: flex;
+}
+.jpic{
+    width: 50%;
+    height: 100%;
+    border: black solid 1px;
+}
+.jstory{
+    height: 100%;
+    width: 50%;
+    border: black solid 1px;
+    overflow: auto;
+    text-align: center;
+}
+.gp{
+    margin-top: 0;
+    padding: 5%;
+    color: white;
+}
+@media (max-width: 600px) {
+    .storycontainer {
+        flex-wrap: nowrap;
+    flex-direction: column; 
+    align-items: center;
+    height:min-content;
+    }
+    .dcontainer{
+        padding-top: 5%;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gcontainer{
+        padding-top: 5%;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ncontainer{
+        padding-top: 5%;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jcontainer{
+        padding-top: 5%;
+        width: 70%;
+        padding-bottom: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .johnsection{
+        height:min-content;
+    }
+    .dpic{
+        width: 50%;
+        height: 10em;
+    }
+    .jpic{
+        width: 50%;
+        height: 10em;
+    }
+    .npic{
+        width: 50%;
+        height: 10em;
+    }
+    .gpic{
+        width: 50%;
+        height: 10em;
+    }
+    .jstory{
+        height: 50%;
+        width: 100%;
+        overflow-y:auto;
+        border:#B5854A;
+        text-align: center;
+    }
+    .nstory{
+        height: 50%;
+        width: 100%;
+        overflow-y:auto;
+        border:#B5854A;
+        text-align: center;
+    }
+    .gstory{
+        height: 50%;
+        width: 100%;
+        overflow-x:visible;
+        border:#B5854A;
+        text-align: center;
+    }
+    .dstory{
+        height: 50%;
+        width: 100%;
+        overflow-y:auto;
+        border:#B5854A;
+        text-align: center;
+    }
+    .johntitle{
+        justify-content: center;
+    }
+}
+/* 
 
 /* Jennifer */
 h2 {
