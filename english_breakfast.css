@@ -345,11 +345,11 @@ text-shadow: 5px 5px var(--dcolor3);
 
 .darcontainer {
     display: grid;
-    background-image: url(english-countryside.jpeg); */
+    background-image: url(english-countryside.jpeg);
     background-repeat: no-repeat;
     background-size:100%;
     background-position: center;
-    background-size: cover; */
+    background-size: cover;
 }
 
 .britrecipes {
