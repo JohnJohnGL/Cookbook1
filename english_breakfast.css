@@ -309,13 +309,16 @@ text-shadow: 5px 5px var(--dcolor3);
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(english-breakfast.jpg);
+    background-image: url(dtable.jpg);
     background-repeat: no-repeat;
     background-size:100%;
     background-position: center;
     background-size: cover;
     margin: 0px;
     padding: 0px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-width: 10px;
 }
 
 .drecipes h1 {
@@ -342,13 +345,11 @@ text-shadow: 5px 5px var(--dcolor3);
 
 .darcontainer {
     display: grid;
-    background-image: url(dtable.jpg);
+    background-image: url(english-countryside.jpeg); */
     background-repeat: no-repeat;
     background-size:100%;
     background-position: center;
-    background-size: cover;
-    border-top-style: solid;
-    border-top-width: 10px;
+    background-size: cover; */
 }
 
 .britrecipes {
@@ -356,12 +357,86 @@ text-shadow: 5px 5px var(--dcolor3);
     text-decoration: underline;
     font-family: var(--dfont);
     padding: 0px;
-    color: #FFF;
+    color: black;
     display: flex;
-    text-shadow: 5px 5px var(--dcolor3);
+    /* text-shadow: 5px 5px #FFF; */
     margin-left: 15%;
 }
 
-footer {
-    padding: 10%;
+.dingredcontainer {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.dingrediant {
+    color: black;
+    border-style: solid;
+    font-family: var(--dfont);
+    border-width: 10px;
+    padding: 2%;
+    margin: 5%;
+    background-color: #FFF;
+    border-color: rgb(61, 29, 6);
+}
+
+.dingrediant h3 {
+    text-decoration: underline;
+    font-size: 3rem;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+.dingrediant li {
+    font-size: 1.5rem;
+    padding-top: 3%;
+    list-style: none;
+}
+
+.dingredcontainer img {
+    height: 500px;
+    width: 600px;
+    border-style: solid;
+    border-width: 10px;
+    padding: 2%;
+    margin: 5%;
+    background-color: #FFF;
+    border-color: rgb(61, 29, 6);
+}
+
+.dmethod li {
+    font-size: 1.5rem;
+    padding-top: 3%;
+}
+
+.dmethod h3 {
+    text-decoration: underline;
+    font-size: 3rem;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+.dmethod {
+    color: black;
+    border-style: solid;
+    font-family: var(--dfont);
+    border-width: 10px;
+    padding: 2%;
+    margin: 5%;
+    background-color: #FFF;
+    border-color: rgb(61, 29, 6);
+}
+
+.dshare {
+    padding: 1.5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    font-weight: 1000;
+}
+
+.dshare:hover {
+    cursor: pointer;
+    background-color: rgb(61, 29, 6);
+    color: #FFF;
 }
