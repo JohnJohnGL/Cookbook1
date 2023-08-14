@@ -1,0 +1,224 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+#nav{
+    min-width: 200px;
+    min-height: 200px;
+    display: block;
+    }
+    .nav { 
+    display: flex;
+    justify-content:space-between ;
+    align-items:first baseline;
+    background-color:wheat;
+}
+   
+ul.nav-list{ 
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    list-style: none;
+    background-color: whitesmoke;
+    }
+   li.nav-items a {
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+   .paragraph{
+    display: flex;
+    justify-content: center;
+    
+   }
+   .p1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    color:black;
+    }
+   /************hero image*/
+   .header-content{
+    background-color: black;
+    background-image: url(spice2.avif);
+     min-height: 700px;
+    min-width: 700px;
+     position: relative;
+    background-repeat: no-repeat;
+
+   }
+   .mainpage{
+    background-color:white;
+    display:column;
+   }
+.dalpage{
+    display: flex;
+    background-color:wheat
+}
+.nav1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    
+}
+#daltadka.nav1{
+   color: #ec0b0b;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+}
+.dalrecipe{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: flex-start;
+
+}
+
+.content3{
+    display:column;
+    justify-content:space-evenly ;
+    
+}
+.baticontent{
+    display: flex;
+    background-color:wheat
+}
+#bati.nav2{
+    color: #ec0b0b;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.bati2{ 
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: flex-start;
+    
+}
+.nav2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    
+}
+   .image1{
+    min-width: 50%;
+    min-height: 50%;
+  padding:15px;
+   }
+   .image2{
+    min-width: 50%;
+    min-height: 50%;
+    padding:15px;
+   }
+   .nav3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    
+}
+.image3{
+    min-width: 50%;
+    min-height: 50%;
+    padding:15px;
+   }
+   .churma2{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: flex-start;
+   }
+   
+   #churma.nav3{
+    color: #ec0b0b;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.churmacontent{
+    display: flex;
+    background-color: wheat;
+}
+.raitacontent{
+    display: flex;
+    background-color:wheat;
+    
+}
+#raita.nav4{
+    color: #ec0b0b;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.raita2{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    justify-content: flex-start;
+   }
+   .image4{
+    min-width: 50%;
+    min-height: 50%;
+    padding:15px;
+   }
+   .nav4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    
+   }
+   #footer{
+    background-color:wheat;
+   }
+   .footer-content{
+
+    display: flex;
+    margin-top: 20px;
+   
+    }
+.stay-touch{
+    margin-left: 20%;
+    
+}
+.email-bar{
+    display: block;
+    margin-left: 20%;
+    align-content: space-between;
+}
+
+.submit-button{
+    background-color:black;
+    color: white;
+    min-width: 350px;
+    min-height: 40px;
+    border-color: black;
+}
+
+.s-icon{
+    font-size: 25px;
+    color: red;
+    display: flex;
+    justify-content:space-between;
+}
+.input-button{
+    background-color: white;
+    min-width: 350px;
+    min-height: 40px;
+    text-align: center;
+    text-decoration-color: black;
+    margin-bottom:10px ;
+    margin-top: 10px;
+}
+#copyright1{
+display: flex;
+justify-content: center;
+margin-top: 60px;
+font-size: 12px;
+}
+    /*--------footer end------/
+
