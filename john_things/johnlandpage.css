@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 20vh;
+    display: flex;
+    background: linear-gradient(#EB3349,#F45C43);
+    justify-content: center;
+    align-items: center;
+}
+.thatul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    padding: 0; 
+}
+
+.thata {
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.thata:hover{
+    transform: scale(1.2);
+}
+.thatli {
+    margin-right: 100px;
+    border: 10px solid red;
+    width: 50px;
+    border-radius: 2000px;
+    padding:10%;
+    background-color: #EB3349;
+}
+.thatul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 0; 
+}
+
+
+
+.logoimg{
+    height: 100px;
+    margin-top: 2%;
+}
+.gleft{
+    width: 50vw;
+    height: 100%;
+}
+.gright{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+}
+
+
+
+
+
+.everything{
+    display: flex;
+    height: 100vh;
+}
+h1{
+    align-self: center;
+    border: 10px solid red;
+    border-radius:2000px;
+    padding:5%;
+    background-color: #EB3349;
+    color:white;
+}
+.left{
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    width: 50vw;
+    height: 100%;
+    margin-top: 5%;
+}
+.thisul{
+    list-style: none;
+}
+.thisul li{
+    display: flex;
+    border: 10px solid red;
+    width: 300px;
+    height: 70px;
+    margin-bottom: 30%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2000px;
+    color: white;
+    background-color: #EB3349;
+    transition: 0.3s ease;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+ul .first:hover{
+    background-image: url(/Assets/Chicken-gyros.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease;
+}
+ul .second:hover{
+    background-image: url(/john_things/Spanakopita-1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease;
+}
+ul .third:hover{
+    background-image: url(/john_things/Greek-Pastitsio-Recipe-feature-image.webp);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease;
+}
+.thish2{
+    text-align: center;
+}
+.thisimg{
+    width: 100%;
+}
+
+
+
+.footer-content{
+    background-color: red;
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    }
+.stay-touch{
+    margin-left: 20%;
+    
+}
+.email-bar{
+    display: block;
+    margin-left: 20%;
+    align-content: space-between;
+}
+
+.submit-button{
+    background-color:black;
+    color: white;
+    min-width: 350px;
+    min-height: 40px;
+    border-color: black;
+}
+
+.s-icon{
+    font-size: 25px;
+    color: red;
+    display: flex;
+    justify-content:space-between;
+}
+.input-button{
+    background-color: white;
+    min-width: 350px;
+    min-height: 40px;
+    text-align: center;
+    text-decoration-color: black;
+    margin-bottom:10px ;
+    margin-top: 10px;
+}
+#copyright1{
+display: flex;
+justify-content: center;
+margin-top: 60px;
+font-size: 12px;
+}
+
+
+
