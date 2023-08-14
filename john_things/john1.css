@@ -1,0 +1,55 @@
+button{
+    border: 10px solid red;
+    background-color: #EB3349;
+    color: white;
+    border-radius: 20px;
+    padding: 2%;
+    cursor: pointer;
+    margin: 2%;
+}
+button:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+.everything{
+    display: flex;
+}
+.left{
+    width: 50vw;
+}
+.right {
+    border:10px solid red;
+    background-color: #EB3349;
+    color: white;
+    border-radius: 20px;
+    margin: 2%;
+    flex: 1; 
+    display: flex; 
+    justify-content: center; 
+    
+}
+.right article {
+    text-align: center;
+}
+.LOLL{
+    display: flex;
+    border: 10px solid red;
+    border-radius: 20px;
+    background-color: #EB3349;
+    color: white;
+}
+.leftul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    align-items: center;
+}
+.rightul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    align-items: center;
+}
